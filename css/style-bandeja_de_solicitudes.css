@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor_bs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 60%;
+}
+.contenido {
+    display: block;
+    width: 100%;
+}
+.contenedor_grid_unacolumna {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contenedor_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contedor_grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    margin-top: 20px;
+}
+.contendor_contenido_admin {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #FFFFFF;
+    border: 1px solid #c5c3c3;
+    border-radius: 5px;
+}
+.contenido_usuario {
+    padding: 10px;
+    text-align: center;
+}
+h3.textoti {
+    margin: 10px;
+    font-weight: 400;
+}
+h2.textoti {
+    margin: 10px;
+   
+}
+.contendor_contenido_solicitudes{
+  display: block;
+}
+.contenido_usuario_soli {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+    border: 1px solid #c5c3c3;
+    border-radius: 5px;
+}
+.contenedor_inputs {
+    text-align: start;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.con_labelandinpu {
+    padding: 5px;
+}
+.contedor_grid_form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin-top: 20px;
+}
+textarea#txtmensaje {
+    resize: none;
+}
+input[type="submit"] {
+    padding: 10px;
+    background-color: #353535;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contedor_grid_recordarorio{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+   padding: 10px;
+}
+.contenedor_recordatorio {
+    display: block;
+    width: 100%;
+    background-color: #e7e5e5;
+    padding: 5px;
+    color: #2e2e2e;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+h5.puesto {
+    font-weight: 300;
+}
+
+.asunto {
+ 
+    color: #9b0000;
+}
+.conte_nombre {
+    padding: 10px;
+}
+h5.mensaje {
+    padding: 5px;
+    text-align: justify;
+    font-weight: 300;
+}
+input#borra_mensa {
+    width: 50%;
+    background-color: #b10000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input#borra_mensa:hover {
+    background-color: #9b0101;
+
+}
+.botoness {
+    margin-top: 20px;
+}
+a#deletebutton {
+    background-color: #bb0000;
+    padding: 5px;
+    border-radius: 5px;
+}

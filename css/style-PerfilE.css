@@ -1,0 +1,172 @@
+.divPerfilE{
+    width: 96%;
+    color: black;
+    text-align: right;
+    margin-bottom: 90px;
+}
+.txtPerfilE{
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 70%;
+    padding: 5px;
+}
+.divVideo{
+    visibility: hidden;
+    width: 0px;
+}
+.divVideo video ,#listaDeDispositivos , #txtCamara, #lblCamara{
+    visibility: hidden;
+    width: 0px;
+    
+}
+.btnCancelar{
+    width: 80px;
+    background-color: rgb(158, 2, 2);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btnGuardar{
+    width: 80px;
+    background-color: rgb(1, 109, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px;
+}
+.btnCancelar:hover{
+    background-color: rgb(114, 0, 0);
+}
+.btnCargar{
+    width: 80px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+.btnCargar:hover{
+    background-color: rgb(214, 157, 1);
+}
+
+.btnFoto2{
+    width: 80px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.btnFoto{
+    width: 80px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    visibility: hidden;
+}
+.btnFoto:hover{
+    background-color: rgb(97, 97, 97);
+}
+.btnGuardar:hover{
+    background-color: rgb(1, 82, 1);
+}
+.MostrarImagen{
+    border:solid 3px  #000000;
+    margin: auto;
+    align-content: center;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+}
+.MostrarImagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgP{
+    border:solid 3px  #000000;
+    margin: auto;
+    align-content: center;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.imgP img{
+    width: 100%;
+    height: 100%;
+}
+
+.aEmpleados{
+
+border: black 1px solid;
+border-radius: 5px;
+color: black;
+padding: 5px;
+
+}
+.aEmpleados:hover{
+
+    border: royalblue 1px solid;
+    border-radius: 5px;
+    color: royalblue;
+    padding: 5px;
+    
+    }
+
+@media (min-width:768px){
+    
+    .divPerfilE{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 90px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    .lblPerfilE, .txtPerfilE{
+        font-size: 12px;
+    }
+    
+
+}
+@media (min-width:1024px){
+
+    .btnFoto{
+        visibility: visible;
+    }
+    .divVideo video ,#listaDeDispositivos , #txtCamara, #lblCamara{
+        visibility: visible;
+        width: 200px;
+        
+    }
+    .btnFoto2{
+        visibility: hidden;
+    }
+    .divVideo{
+        margin: auto;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .divVideo video{
+        width: 100%;
+    }
+    .divVideo canvas{
+        width: 100%;
+    }
+    #imagen2, #lblCamaraM,#txtFoto2{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+
+}

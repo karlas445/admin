@@ -1,0 +1,237 @@
+.divEmpleados{
+    margin: auto;
+    width: 95%;
+    margin: 10px;
+}
+.txtEmpleados , .txtGasolina, .sltEmpleados, .txtFactor, .txtPrecios,.txtCuentas{
+    width: 95%;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0 10px 10px;
+    border: 1px black solid;
+}
+.tituloEmpleados{
+    margin: 10px;
+    border-bottom: 2px dotted black;
+    margin-top: 20px;
+}
+.lblEmpleados,.tituloEmpleados{
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.separacion{
+border: solid 1px rgb(90, 90, 90);
+
+}
+
+.icon-edit{
+    color: black;
+}
+
+.subtituloEmpleados{
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+.subtituloEmpleado{
+    color: black;
+    text-align: left;
+    padding: 10px;
+    border: solid black 1px;
+    margin-bottom: 5px;
+}
+.frmEmpleados{
+    border: 1px solid black;
+}
+.parrafoTitulo{
+    color: black;
+    text-align: left;
+    margin-left: 2px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-bottom: 2px dotted black;
+    font-size: 12px;
+}
+
+.tablaEmpleados{
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tablaEmpleados thead tr{
+    background: rgb(51, 51, 51);
+    font-size: 15px;
+    color: white;
+}
+
+.tablaEmpleados td{
+    border: solid black 1px;
+    align-content: center;
+    height: 100%;
+    padding: 3px;
+}
+
+.tablaEmpleados tbody{
+    background-color: white;
+    font-size: 12px;
+}
+
+.lblBuscar{
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.txtBuscar{
+    width: 93%;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.btnLimpiar{
+    width: 80px;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btnGuardar{
+    width: 80px;
+    background-color: rgb(1, 109, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btnGuardar:hover{
+    background-color: rgb(1, 82, 1);
+}
+.btnLimpiar:hover{
+    background-color: rgb(6, 6, 63);
+}
+.btnCodigo{
+    width: 80px;
+    background-color: rgb(1, 109, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.btnCodigo:hover{
+    background-color: rgb(1, 82, 1);
+}
+
+.btnBuscar{
+    width: 40px;
+    background-color: rgb(1, 109, 1);
+    background-image: url(../recursos/search.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    
+}
+.btnBuscar:hover{
+    background-color: rgb(1, 82, 1);
+}
+
+.txtPrecios:hover{
+   cursor: no-drop;
+}
+@media (min-width:768px){
+
+    .divEmpleados{
+        margin: auto;
+        width: 95%;
+        margin: 20px;
+    }
+    .txtBuscar{
+        width: 300px;
+        font-size: 14px;
+    }
+    .lblBuscar{
+        margin-left: 30px;
+    }
+
+}
+@media (min-width:1024px){
+
+.txtEmpleados, .txtBuscar{
+    width: 300px;
+    font-size: 12px;
+}
+.txtCuentas{
+    width: 600px;
+    font-size: 12px;
+}
+.txtGasolina{
+    width: 100px;
+}
+.divEmpleados{
+    margin: auto;
+    width: 94%;
+    margin: 30px;
+}
+.lblEmpleados{
+    font-size: 12px;
+    margin-left: 10px;
+    width: 80px;
+}
+.lblBuscar{
+    margin-left: 40px;
+    font-size: 12px;
+}
+.sltEmpleados{
+    width: 170px;
+    font-size: 12px;
+}
+#txtTel1,#txtTel2{
+    width: 90px;
+}
+#txtDomicilio{
+    width: 350px;
+}
+#txtZona{
+    width: 80px;
+}
+.tablaEmpleados{
+    font-size: 11px;
+    width: 98%;
+}
+.txtFactor, .txtPrecios{
+    width: 90px;
+    font-size: 12px;
+}
+}
+
+.tablaPuestos{
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 90px;
+}
+.tablaPuestos td{
+    border: solid black 1px;
+    align-content: center;
+    height: 100%;
+    padding: 3px;
+}
+.tablas{
+    margin: auto;
+    width: 98%;
+    height: 500px;
+}

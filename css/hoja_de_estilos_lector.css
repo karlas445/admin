@@ -1,0 +1,166 @@
+.titulo{
+	color: black;
+	font-size: 40px;
+	text-align: center;
+  font-family: monospace;
+  margin-top: 40px;
+}
+
+#mensajeSalida{
+  text-align: center;
+}
+
+
+.panel-lectura{
+	overflow: hidden;
+	background: rgba(121, 146, 255, 0)!important;
+}
+
+.panel-camara{
+	float: left;
+	padding: 50px;
+  width: 500px;
+}
+
+.panel-resultado{
+	float: left;
+	padding: 50px; 
+  width: 60%;
+}
+
+/*Sonido*/
+
+.sonido{
+  position: fixed;top: -60px;
+}
+
+#sonido_qr{
+  width: 0px !important;
+  height: 0px !important;
+}
+
+/*Sonido*/
+
+
+/*Estilos para la Cámara*/
+
+.panel-camara{
+  max-width: 400px;
+  margin: 0 auto;
+ position: relative;
+}
+#preMensaje {
+      text-align: center;
+      padding: 40px;
+      background-color: #353535;
+      color: white;
+}
+
+#canvas {
+  width: 100%;
+}
+
+#datosSalida {
+  margin-top: 20px;
+  background:#353535;
+  color: white;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+#datosSalida div {
+  padding-bottom: 10px;
+  word-wrap: break-word;
+  color: white;
+}
+
+#datosSalida span {
+  color:white;
+  font-size: 20px;
+}
+
+/*Estilos para la Cámara*/
+
+/*Mensajes y tabla de resultados*/
+
+.mensaje_registro_no_existente{
+
+  background: orange;
+  color: #000;
+  font-size: 25px;
+  padding: 15px 50px;
+  text-align: center;
+  border-radius: 50px;
+
+}
+
+.mensaje_registro_existente{
+  background: #fd0000af;
+  color: #000;
+  font-size: 25px;
+  padding: 10px 50px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+
+.titulo_datos{
+  background-color: #353535;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  border-radius: 50px;
+}
+
+.titulo_datos h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tabla_resultados{
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
+
+.tabla_resultados thead tr th{
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 15px
+
+}
+
+/*Mensajes y tabla de resultados*/
+
+/*Control de Datos Escaneados*/
+
+.tablaDatos{
+      max-width: 700px;
+      background: rgb(15, 241, 53);
+      margin: auto;
+      margin-top: 30px;
+      text-align: center;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .tabla{
+      width: 100%;
+    }
+
+    .cabeceraTabla{
+      background: #333;
+      height: 40px;
+      color: rgb(39, 110, 243);
+    }
+
+
+    .datos{
+      height: 50px;
+    }
+
+    .datos:nth-child(odd){
+      background: rgb(28, 250, 157);
+    }
+
+    .datos:nth-child(even){
+      background: #2eda03;
+    }

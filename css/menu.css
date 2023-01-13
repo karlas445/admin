@@ -1,0 +1,85 @@
+
+#menu-bar {
+    display: none;
+}
+.icon-menu {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#menu-bar:checked ~ .barra {
+    transform: translateX(0%);
+    transition: all 0.5s;
+    overflow: visible;
+    z-index: 100;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+button{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+.barra {
+    background-color: #353535;
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+    padding: 1px;
+    min-height: 90vh;
+    border: 1px solid black;
+}
+
+
+@media (min-width:768px) {
+    .barra{
+        width: 200px;
+        margin-bottom: 90px;
+        top: 120px;
+    }
+}
+.btnMenu{
+    margin: auto;
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.btnMenu:hover{
+    background-color: #757575;
+}
+.subMenu{
+    background-color: #cfc7c7;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+@media (min-width:1024px){
+    .barra{
+        z-index: 0;
+    }
+    }

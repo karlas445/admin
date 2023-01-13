@@ -1,0 +1,287 @@
+@import url(menu.css);@import url(fontello.css);@import url(style-personal.css);
+@import url(hoja_de_estilos_lector.css);@import url(hoja_de_estilos_generales.css);
+@import url(style-Galeria.css);@import url(style-fotos.css);
+@import url(style-PerfilE.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.mapa {
+    width: 100%;
+    height: 100%;
+}
+.labels {  
+    color: red;  
+    background-color: white;  
+    font-family: "Lucida Grande", "Arial", sans-serif;  
+    font-size: 10px;  
+    font-weight: bold;  
+    text-align: center;  
+    width: 40px;       
+    border: 2px solid black;  
+    white-space: nowrap;  
+    }
+html{
+      min-height: 100%;
+  position: relative;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+header {
+    width: 100%;
+    height: 90px;
+    background-color:#294da1 ;
+    color: #F4F4EF;
+    
+}
+.icon-menu{
+    color:  #F4F4EF;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.tituloLogin{
+    margin: auto;
+    margin: 40px  0 0 35%;
+    font-size: 14px;
+    
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    border-bottom:1px solid #ACBEBE;
+    position: absolute;
+    background-color: #353535;
+    height: 90px;
+}
+.contenedor .imgCabecera {
+    float: left;
+    width: 120px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.btnIndex{
+    color: transparent;
+}
+
+header .contenedor {
+    display: table;
+}
+input, textarea{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 10px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.pDatos{
+    margin-top: 30px;
+    float: left;
+    font-weight: bolder;
+    
+}
+
+.loading{
+    margin: 30px;
+    text-align: center;
+}
+
+.divLogin{
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid black;
+    width: 90%;
+    text-align: center;
+    color: black;
+
+}
+.titulo2{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.lblLogin{
+    margin: auto;
+    float: left;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.txtLogin{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #20232A;
+    font-family: monospace;
+}
+.btnLogin{
+    width: 40%;
+    background-color: #A01D26;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #F4F4EF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+.btnLogin:hover{
+        background-color: #701118;
+        cursor: pointer;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pie{
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    font-weight: 600;
+    background-color: #20232A;
+    bottom: 0;
+    border-top: #F4F4EF 1px solid;
+    color: #F4F4EF;
+    margin-top: 20px;
+}
+.parrafoPie{
+    margin: auto;
+    margin: 20px;
+    font-size: 18px;
+}
+@media (min-width:768px){
+.tituloLogin{
+    margin-left: 35%;
+}
+.divLogin{
+    margin-top: 200px;
+    width: 40%;
+}
+
+.divPrincipal{
+    margin-top: 40px;
+    margin-left: 10px;
+    border-bottom: dashed #353535 2px;
+}
+.contenedor .imgCabecera {
+    float: left;
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+.tituloLogin{
+    margin: auto;
+    margin: 40px  0 0 35%;
+    font-size: 24px;
+    
+}
+}
+@media (min-width:1024px){
+    .divLogin{
+        margin-top: 80px;
+        width: 30%;
+    }
+    .txtLogin, .lblLogin{
+        font-size: 16px;
+    }
+    .pDatos{
+        font-size: 20px;
+    }
+    }
+    .cAsignar{
+        margin-left: 20px;
+    }
+    .cbAsignar + label {
+        font-weight: bold;
+        line-height: 3em;
+        color: black;
+        
+    }
+    .cbAsignar:checked + label {
+        color: #294da1;
+    }
+    .cbAsignar + label:before {
+        content: "";
+        width: 26px;
+        height: 26px;
+        float: left;
+        margin: 0.5em 0.5em 0 0;
+        border: 2px solid black;
+        background: #fff;
+    }
+    .cbAsignar:checked + label:before {
+        border-color: #294da1;
+    }
+    .cbAsignar:checked + label:after {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border: 4px solid #294da1;
+    float: left;
+    margin-left: -1.95em;
+    border-right: 0;
+    border-top: 0;
+    margin-top: 1em;
+    transform: rotate(-55deg);
+}
+.cbAsignar {
+	display: none;
+}
+.cbAsignar + label {
+    font-weight: bold;
+    line-height: 3em;
+    color: black;
+}
+.cbAsignar:checked + label {
+    color: #294da1;
+}
+.todos{
+    margin-left: 20px;
+}
+
+.btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #294da1; /* Color de fondo */
+	padding: 10px 10px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #11137a; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
